@@ -1,0 +1,43 @@
+*{
+    margin-left:10px
+}
+header{
+    border: 2px solid black;
+    margin-top:30px;
+    width: 1400px;
+    height: 50px;
+    text-align: center;
+    font-size: 31px;
+}
+section {
+    display: flex;
+    margin-left: 1px;
+    text-align: center;
+    font-size: 31px;
+}
+
+.col-1{
+    border: 2px solid black;
+    margin-top: 30px;
+    width: 46%;
+    height: 280px;
+    text-align: center;
+    font-size: 31px;
+}
+.col-2 {
+    border: 2px solid black;
+    margin-top: 30px;
+    width: 45%;
+    height: 280px;
+    margin-left: 31px;
+    text-align: center;
+    font-size: 31px;
+}
+footer{
+    border: 2px solid black;
+    margin-top:30px;
+    width: 1400px;
+    height: 50px;
+    text-align: center;
+    font-size: 31px;
+}

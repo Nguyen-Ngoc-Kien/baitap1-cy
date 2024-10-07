@@ -1,0 +1,29 @@
+.container{
+    margin: auto;
+}
+
+.layer-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.image{
+    width: 800px;
+    height: 600px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.image:hover{
+    transform: scale(1.04);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,42 @@
+.container{
+    margin: auto;
+}
+
+.image{
+    width: 800px;
+    height: 600px;
+    animation: animation 6s ease-in-out infinite;
+}
+
+@keyframes animation {
+    0%{
+        background-image: url(./image/anh-mau-xanh-duong.jpg.webp);
+        background-size: cover;
+        opacity: 0.2;
+    }
+    33%{
+        background-image: url(./image/anh-mau-xanh-duong.jpg.webp);
+        background-size: cover;
+        opacity: 1;
+    }
+    50%{
+        background-image: url(./image/anh_nen_dep_2017__2_\ \(1\).jpg);
+        background-size: cover;
+        opacity: 1;
+    }
+    66%{
+        background-image: url(./image/anh_nen_dep_2017__2_\ \(1\).jpg);
+        background-size: cover;
+        opacity: 0.5;
+    }
+    75%{
+        background-image: url(./image/unnamed.jpg);
+        background-size: cover;
+        opacity: 1;
+    }
+    100%{
+        background-image: url(./image/unnamed.jpg);
+        background-size: cover;
+        opacity: 0.5;
+    }
+}

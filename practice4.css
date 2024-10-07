@@ -1,0 +1,514 @@
+.container {
+    margin: auto;
+    max-width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header {
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.logo-shop p{
+    font-family: Marko One;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #8CC5F9;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-menu ul {
+    margin-left: -89px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.link-menu ul li {
+    list-style: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    margin-left: 31px;
+    color: #08090A;
+    cursor: pointer;
+}
+
+.logo-shop {
+    margin-left: 30px;
+    width: 232px;
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    width: 56px;
+    height: 41.91px;
+}
+
+.img-language {
+    margin-top: 29px;
+    cursor: pointer;
+    width: 62.5px;
+    height: 25px;
+}
+
+.link-menu ul li.active{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    color: #8CC5F9;
+    border-bottom: 4px solid #8CC5F9;
+    
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.title-and-content {
+    width: 641px;
+    height: 345px;
+    margin-left: 93px;
+}
+
+.title-and-content p.content {
+    width: 555px;
+    height: 70px;
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+p.content span{
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #8CC5F9;
+}
+
+.img-mountain {
+    width: 353px;
+    height: 329px;
+    margin-right: 22px;
+    margin-top: 46px;
+}
+
+h2.title {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}   
+
+.link-intro ul {
+    display: flex;
+    justify-content: center;
+    margin-left: -89px;
+}
+
+.link-intro ul li {
+    list-style: none;
+    margin-left: 25px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+}
+
+.link-intro ul li.active {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    color: #8CC5F9;
+    border-bottom: 4px solid #8CC5F9;
+}
+
+.content-intro{
+    border: 1px solid #8CC5F9;
+    width: 261px;
+    height: 309px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px 0px #2F53971A; 
+}
+
+.avatar {
+    margin: auto;
+    width: 119px;
+    height: 119px;
+    margin-top: 18px;
+}
+
+.name {
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 26.07px;
+    text-align: center;
+    color: #8CC5F9;
+    margin-top: 18px;
+}
+
+.intro {
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 16.59px;
+    text-align: center;
+    color: #BDBDBD;
+    margin-top: 11px;
+}
+
+.extend {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.59px;
+    text-align: center;
+    color: #BDBDBD;
+    margin-top: 45px;
+}
+
+.introduce-team {
+    padding: 0px 103px;
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.border-radius{
+    border-radius: 50%;
+}
+
+.full-content-intro {
+    margin-top: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-left: 85px;
+}
+
+.load-more {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    color: #828282;
+    margin-top: 77px;
+}
+
+.img-note {
+    padding-top: 35px;
+    width: 60px;
+    height: 38px;
+    margin: auto;
+}
+
+.text-note {
+    margin: auto;
+    font-family: Rubik;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 39.11px;
+    color: #4F4F4F;
+    width: 1137px;
+    height: 226px;
+    margin-top: 46px;
+}
+
+p.lorem-ipsum {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: right;
+    color: #BDBDBD;
+}
+
+.note {
+    margin-top: 113px;
+    height: 457px;
+    background: #fbfbfb;
+}
+
+.language {
+    margin-right: 29px;
+}
+
+.img-number {
+    width: 131.39px;
+    height: 223.53px;
+}
+
+.layer-motto {
+    display: flex;
+}
+
+.content-in-number {
+    width: 917px;
+    height: 224px;
+}
+
+.layer-motto {
+    width: 1440px;
+    max-width: 100%;
+    display: flex;
+    margin-left: 219px;
+    gap: 61px;
+    margin-top: 100px;
+}
+
+h3.content-title {
+    margin-top: -9px;
+    font-family: Rubik;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 65.18px;
+    text-align: left;
+    color: #8CC5F9;
+}
+
+.content-in-number p {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 41.48px;
+    text-align: left;
+    color: #4F4F4F;
+}
+
+.motto {
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.logo-recruitment {
+    width: 172px;
+    height: 134px;
+}
+
+.recruitment {
+    width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 95px;
+    align-items: center;
+    background: white;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+button.see-jobs {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background: #8CC5F9;
+    border: none;
+    color: white;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.text-recruitment {
+    width: 421px;
+    height: 115.5px;
+}
+
+.img-facebook {
+    width: 33.6px;
+    height: 33.6px;
+    background: blue;
+    margin-right: 10px;
+}
+
+.img-insta {
+    width: 33.6px;
+    height: 33.6px;
+    background: blue;
+    margin-right: 10px;
+}
+
+.img-twister {
+    width: 33.6px;
+    height: 33.6px;
+    background: blue;
+    margin-right: 10px;
+}
+
+.product ul li.bold{
+    font-weight: 700;
+}
+
+.engage ul li.bold{
+    font-weight: 700;
+}
+
+.privacy ul li.bold{
+    font-weight: 700;
+}
+
+.logo-footer {
+    display: flex;
+}
+
+.contact {
+    width: 400px;
+    margin-left: 166px;
+}
+
+.contact-icon {
+    display: flex;
+}
+
+.footer {
+    position: relative;
+    height: 563.12px;
+}
+
+
+.product ul{
+
+}
+
+.product ul li{
+    list-style: none;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.engage ul{
+
+}
+
+.engage ul li{
+    list-style: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.privacy ul{
+
+}
+
+.privacy ul li{
+    list-style: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.logo-footer p{
+    font-family: Marko One;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #8CC5F9;
+
+}
+
+.content-job p{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #BDBDBD;
+
+}
+
+.copyright p{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #AFB5C0;
+
+}
+
+.content-footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 160px;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.product {
+    width: 74px;
+    height: 280px;
+    margin: auto;
+}
+
+.engage {
+    width: 90px;
+    height: 240px;
+    margin: auto;
+    margin-top: -6px;
+}
+
+.privacy {
+    width: 96px;
+    height: 150px;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.content-job {
+    margin-top: -22px;
+} 
+
+.engage ul {
+    margin-left: -35px;
+    margin-top: 49px;
+}
+
+.product ul {
+    margin-top: 40px;
+}
+
+.privacy ul {
+    margin-top: 49px;
+    margin-left: -104px;
+}
+
+.background-footer {
+    background: #F8F8F8;
+    z-index: -1000;
+    position: relative;
+    margin-top: -119px;
+}

@@ -1,0 +1,778 @@
+$primary-color: #66a8ff;
+$text-color: #555;
+$card-background: #fff;
+$box-shadow-color: rgba(0, 0, 0, 0.1);
+$font-family: 'Arial, sans-serif';
+$secondary-color: #1f2937;
+
+.container {
+    margin: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+
+    .notification {
+        background: #08090A;
+        height: 60px;
+
+
+        .ground{
+            margin: auto;
+            width: 1440px;
+            max-width: 1440px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .text-notification{
+                >p{
+                    font-family: Rubik;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 21.33px;
+                    color: #F5FAFE;
+                }
+            }
+            .img-closed{
+                width: 19px;
+                height: 16px;
+                color: #F5FAFE;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .header {
+        margin: auto;
+        width: 1440px;
+        max-width: 100%;
+
+
+        .menu {
+            display: flex;
+            justify-content: space-between;
+
+            .logo-shop {
+                margin-left: 30px;
+                width: 232px;
+                display: flex;
+                align-items: center;
+
+                .img-logo {
+                    width: 56px;
+                    height: 41.91px;
+                }
+
+                >p{
+                    font-family: Marko One;
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    text-align: left;
+                    color: #8CC5F9;
+                    margin-left:20px;
+                }
+            }
+            
+            .link-menu{
+
+                >ul {
+                    margin-left: -143px;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 30px;
+
+                    >li{
+                        list-style: none;
+                        font-family: Rubik;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 18.96px;
+                        margin-left: 31px;
+                        color: #08090A;
+                        cursor: pointer;
+                    }
+                    >li.active{
+                        font-family: Rubik;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 18.96px;
+                        color: #8CC5F9;
+                        border-bottom: 4px solid #8CC5F9;
+                        
+                    }
+                }
+            }
+
+            .img-language {
+                margin-top: 27px;
+                margin-right: 134px;
+            }
+        }
+    }
+
+    .content{
+        .about-us{
+            display: flex;
+            justify-content: space-between;
+            width: 1440px;
+            max-width: 100%;
+            margin: auto;
+
+            .title-and-content{
+                width: 641px;
+                height: 345px;
+                margin-left: 93px;
+
+                >h2{
+                    font-family: Rubik;
+                    font-size: 50px;
+                    font-weight: 700;
+                    line-height: 70px;                   
+                    color: #8CC5F9;
+                }
+
+                >p.content{
+                    font-family: Rubik;
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    width: 550px;
+                    height: 60px;
+                    
+                    >span{
+                        font-family: Rubik;
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 30px;
+                        color: #8CC5F9;
+                    }
+                }
+
+                button.contact-us{
+                    width: 250px;
+                    height: 60px;
+                    border-radius: 10px;        
+                    background: #8CC5F9;
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    border: none;
+                    cursor: pointer;
+                    margin-top:74px;
+                }
+            }
+            .img-mountain {
+                margin-right: 112px;
+                margin-top: 63px;
+            }
+        }
+
+        .analys {
+            margin: 83px auto;
+            width: 1140px;
+            height: 200px;
+            border-radius: 10px;
+            background: #FFFFFF;
+            display: flex;
+            .all-analys{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                align-items: center;
+
+                .one-layer{
+                    margin-left: 97px;
+                    margin-right: 132px;
+                    display: flex;
+                    .background-icon{
+                        width: 55px;
+                        height: 55px;
+                        border-radius: 70px;
+                        background: #8CC5F9;
+                        position: relative;
+                        margin-top: 19px;
+
+                        .img-icon {
+                            width: 24px;
+                            height: 24px;
+                            position: absolute;
+                            left: 28%;
+                            top: 25%;
+                        }
+                    }
+                    .text-analys {
+                        margin-left: 17px;
+
+                        h3{
+                            margin-bottom: -22px;
+                            font-family: Rubik;
+                            font-size: 25px;
+                            font-weight: 700;
+                            line-height: 30px;
+                            color: #0B132A;
+                        }
+
+                        p{
+                            font-family: Rubik;
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 30px;
+                        }
+                    }
+                }
+
+                .border{
+                    border: 2px solid #EEEFF2;
+                    width: 0px;
+                    height: 125.57px;
+                }
+            }
+        }
+
+        .ground-blur{
+            width: 1068.84px;
+            height: 189.22px;
+            border-radius: 10px;
+            background: #0d102503;
+            margin: -150px auto;
+            position: relative;
+            z-index: -1;
+        }
+
+        .features-container {
+            display: flex;
+            background-color: white;
+            padding: 40px;
+            width: 1440px;
+            margin: 59px auto;
+            max-width: 1072px;
+        
+            .features-image {
+                flex: 1;
+                padding-right: 20px;
+                width: 558px;
+                height: 386px;
+                padding-left: 70px;
+                margin-top: 55px;
+        
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            }
+        
+            .features-content {
+                flex: 1;
+                padding-left: 206px;
+                text-align: left;
+        
+                h2 {
+                    font-family: Rubik;
+                    font-size: 35px;
+                    font-weight: 500;
+                    line-height: 50px;
+                    text-align: left;
+                    color: #8CC5F9;
+                    margin-bottom: 20px;
+                    width: 383.41px;
+                    height: 100px;
+                }
+        
+                p {
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    text-align: left;
+                    color: #4F5665;
+                }
+        
+                ul {
+                    list-style: none;
+                    padding: 0;
+        
+                    li {
+                        display: flex;
+                        align-items: center;
+                        .img-check {
+                            width: 24px;
+                            height: 24px;
+                        }
+
+                        >p{
+                            font-family: Rubik;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 30px;
+                            text-align: left;
+                            color: #4F5665;
+                            padding-left:10px;
+                            
+                        }
+                    }
+                }
+        
+                a {
+                    color: #8CC5F9;
+                    font-family: Rubik;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    text-align: left;
+                    text-decoration: none;
+                    margin-top: 10px;
+                    margin-left: 35px;
+                }
+            }
+        }
+
+        .best-products {
+            padding: 40px 0;
+        
+            .container {
+                width: 90%;
+                max-width: 1200px;
+                margin: 0 auto;
+                text-align: center;
+        
+                h2 {
+                    font-size: 2rem;
+                    color: #1f2937;
+                    margin-bottom: 10px;
+                }
+        
+                .description {
+                    font-size: 1rem;
+                    color: $text-color;
+                    max-width: 800px;
+                    margin: 0 auto 40px auto;
+                    padding: 0 20px;
+                    line-height: 1.6;
+                }
+        
+                .products-grid {
+                    display: grid;
+                    justify-content: center;
+                    grid-template-columns: repeat(auto-fit, minmax(300px, 124px));
+                    gap: 62px;
+                }
+        
+                .product-card {
+                    background-color: $card-background;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 10px $box-shadow-color;
+                    padding: 20px;
+                    text-align: left;
+                    transition: transform 0.3s ease;
+        
+                    .image-bluetooth {
+                        width: 35px;
+                        height: 39px;
+                    }
+
+                    .icon {
+                        font-size: 2rem;
+                        margin-bottom: 10px;
+                        color: $primary-color;
+                    }
+        
+                    h3 {
+                        font-family: Rubik;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        text-align: left;
+                        margin-bottom: 10px;
+                        color: #08090A;
+                        font-weight: 700;
+                    }
+        
+                    p {
+                        font-family: Rubik;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 30px;
+                        text-align: left;
+                        color: #08090A;
+                        margin-bottom: 20px;
+                    }
+        
+                    .more-info {
+                        font-family: Rubik;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        padding-top: 5px;
+                        text-align: center;
+                        width: 136.74px;
+                        height: 35.76px;
+                        color: #66a8ff;
+                        text-decoration: none;
+                        border: 1px solid #66a8ff;
+                        border-radius: 47px;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+        .better-together{
+
+            width: 1440px;
+            max-width: 1440px;
+            margin: 10px auto;
+            .container{
+                overflow-y: hidden;
+                .text{
+                    text-align: center;
+                    margin: 10px auto;
+                    max-width: 555px;
+                    width: 555px;
+                    >h2{
+
+                    }
+    
+                    >p{
+    
+                    }
+                }
+
+                .img-world {
+                    width: 1060px;
+                    height: 537.77px;
+                    margin: auto;
+                    margin-top: 88px;
+                }
+
+                .img-brand {
+                    width: 1135.64px;
+                    height: 208.32px;
+                    margin: auto;
+                    margin-top: 66px;
+                }
+            }
+        }
+
+        .happy-customers {
+            padding: 40px 0;
+        
+            .container {
+                width: 90%;
+                max-width: 1200px;
+                margin: 0 auto;
+                text-align: center;
+        
+                h2 {
+                    margin-bottom: 10px;
+                    font-family: Rubik;
+                    font-size: 35px;
+                    font-weight: 500;
+                    line-height: 50px;
+                    color: #0B132A;
+                    text-align: center;
+                }
+        
+                .description {
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    text-align: center;
+                    width: 555px;
+                    height: 60px;
+                    text-align: center;
+                    margin: auto;
+                }
+        
+
+                .customers-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(316px, 1fr));
+                    gap: 20px;
+                    justify-items: center;
+                    margin-top: 36px;
+                    margin-left: -133px;
+                    margin-right: -156px;
+                }
+        
+
+                .customer-card {
+                    background-color: #fff;
+                    border-radius: 10px;
+                    padding: 20px;
+                    width: 100%;
+                    max-width: 300px;
+                    border: 2px solid #8CC5F9;     
+                    .customer-info {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 20px;
+                        .avatar-user{
+                            width: 50px;
+                            height: 50px;
+                            img {
+                                border-radius: 50%;
+                                margin-right: 15px;
+                                overflow: hidden;
+                            }
+                        }
+                        h3 {
+                            font-size: 1.1rem;
+                            margin: 0;
+                            color: $secondary-color;
+                        }
+        
+                        p {
+                            font-size: 0.9rem;
+                            color: $text-color;
+                            margin: 0;
+                        }
+                    }
+        
+                    .testimonial {
+                        font-size: 0.9rem;
+                        color: $text-color;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        position: relative;
+        height: 563.12px;
+
+        .recruitment {
+            width: 1140px;
+            height: 233px;
+            border-radius: 10px;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 95px;
+            align-items: center;
+            background: white;
+            box-shadow: 1px 1px 1px 1px #dac3c3;
+
+            .logo-recruitment {
+                width: 172px;
+                height: 134px;
+            }
+
+            .text-recruitment {
+                width: 421px;
+                height: 115.5px;
+                margin-top: -71px;
+
+                >h2{
+                    font-family: Rubik;
+                    font-size: 35px;
+                    font-weight: 500;
+                    line-height: 45px;
+                    width: 371.61px;
+                    height: 80px;
+                    top: 4567.78px;
+                }
+                >p{
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    width: 410px;
+                    height: 16px;
+                                        
+                }
+            }
+
+            button.see-jobs {
+                width: 250px;
+                height: 60px;
+                border-radius: 10px;
+                background: #8CC5F9;
+                border: none;
+                color: white;
+                font-family: Rubik;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 25px;
+            }
+        }
+
+        .background-footer {
+            background: #F8F8F8;
+            z-index: -1000;
+            position: relative;
+            margin-top: -119px;
+
+            .content-footer {
+                display: flex;
+                justify-content: space-around;
+                padding-top: 160px;
+                margin: auto;
+                max-width: 1440px;
+
+                .contact {
+                    width: 400px;
+                    margin-left: 166px;
+
+                    .logo-footer {
+                        display: flex;
+
+                        >p{
+                            font-family: Marko One;
+                            font-size: 22px;
+                            font-weight: 400;
+                            line-height: 30px;
+                            text-align: left;
+                            color: #8CC5F9;
+                        }
+                    }
+
+                    .content-job {
+                        margin-top: -22px;
+
+                        >p{
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 30px;
+                            color: #BDBDBD;
+                        }
+                    } 
+
+                    .contact-icon {
+                        display: flex;
+                    }
+
+                    .img-facebook {
+                        width: 51.6px;
+                        height: 51.6px;
+                        margin-right: 1px;
+                    }
+
+                    .img-insta {
+                        width: 51.6px;
+                        height: 51.6px;
+                        margin-right: 1px;
+                    }
+                    
+                    .img-twister {
+                        width: 51.6px;
+                        height: 51.6px;
+                        margin-right: 1px;
+                    }
+
+                    .copyright{
+                        >p{
+                            font-family: Rubik;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 30px;
+                            color: #AFB5C0;
+                        }
+                    }
+                }
+
+                .product{
+                    width: 74px;
+                    height: 280px;
+                    margin: auto;
+                    
+                    >ul{
+                        margin-top: 40px;
+
+                        >li{
+                            list-style: none;
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-weight: 500;
+                            line-height: 30px;
+                        }
+
+                        >li.bold{
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                .engage{
+                    width: 90px;
+                    height: 240px;
+                    margin: auto;
+                    margin-top: -6px;
+
+                    >ul{
+                        margin-left: -35px;
+                        margin-top: 49px;
+
+                        >li{
+                            list-style: none;
+                            font-family: Rubik;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 30px;
+                        }
+
+                        >li.bold{
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                .privacy{
+                    width: 96px;
+                    height: 150px;
+                    margin: auto;
+                    margin-top: -10px;
+                    >ul{
+                        margin-top: 49px;
+                        margin-left: -104px;
+
+                        >li{
+                            list-style: none;
+                            font-family: Rubik;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 30px;
+                        }
+
+                        >li.bold{
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: visible;
+}
+
+.img-logo {
+    width: 56px;
+    height: 41.91px;
+}
+
+p.description {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.text h2{
+        font-family: Rubik;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 50px;
+        text-align: center;
+}
